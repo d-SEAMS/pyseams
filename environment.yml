@@ -17,4 +17,4 @@ dependencies:
   - boost-cpp
   # Python
   - pdm
-  - "fmt==9.1.0"
+  - "fmt==9.0.0"
