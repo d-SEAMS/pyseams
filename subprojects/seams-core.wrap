@@ -1,7 +1,7 @@
 [wrap-git]
 directory=seams-core
-url=https://github.com/d-SEAMS/seams-core
-
+url=https://github.com/ruhirg/seams-core/tree/fixup
+revision=e1b87f431b11c3a20601b934365271350c04dc36
 [provide]
 seams-core=git
 
