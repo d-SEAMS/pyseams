@@ -3,12 +3,12 @@
 #include <fmt/core.h>
 
 #include "../subprojects/seams-core/src/include/internal/mol_sys.hpp"
+#include "../subprojects/seams-core/src/include/internal/topo_one_dim.hpp"
 #include "../subprojects/seams-core/src/include/internal/seams_input.hpp"
 #include "../subprojects/seams-core/src/include/internal/neighbours.hpp"
 #include "../subprojects/seams-core/src/include/internal/bond.hpp"
 #include "../subprojects/seams-core/src/include/internal/franzblau.hpp"
 #include "../subprojects/seams-core/src/include/internal/ring.hpp"
-#include "../subprojects/seams-core/src/include/internal/topo_one_dim.hpp"
 #include "../subprojects/seams-core/src/include/internal/bulkTUM.hpp"
 #include "../subprojects/seams-core/src/include/internal/selection.hpp"
 #include "../subprojects/seams-core/src/include/internal/topo_two_dim.hpp"
@@ -421,11 +421,11 @@ PYBIND11_MODULE(cyoda, m) {
         py::arg("ring1"),
         "ring2"_a);
 
-    m.def("keepAxialRingsOnly",
-        &ring::keepAxialRingsOnly,
-        "Saves only axial rings out of all possible rings",
-        py::arg("rings"),
-        "yCloud"_a);
+   // m.def("keepAxialRingsOnly",
+   //     &ring::keepAxialRingsOnly,
+   //     "Saves only axial rings out of all possible rings",
+   //     py::arg("rings"),
+   //     "yCloud"_a);
 
     m.def("moleculesInSingleSlice",
         &gen::moleculesInSingleSlice,
