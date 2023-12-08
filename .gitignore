@@ -1,6 +1,7 @@
 # Manual additions
 *.swp
 tmp.py
+*.wrap
 # Created by https://www.toptal.com/developers/gitignore/api/python,c++,meson,visualstudiocode,macos,windows,linux,cmake
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,c++,meson,visualstudiocode,macos,windows,linux,cmake
 
